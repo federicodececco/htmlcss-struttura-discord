@@ -22,9 +22,6 @@
   margin: auto;
 }
 
-.hero {
-  min-height: 500px;
-}
 main div {
   min-height: 600px;
 }
@@ -72,6 +69,29 @@ main div {
 .header.last {
   justify-content: flex-end;
   min-width: 25%;
+}
+
+/*---------------------------
+
+    HERO
+
+------------------------------*/
+
+.hero-bg {
+  background-color: #00008b;
+}
+
+.hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-main {
+  background-color: #ee82ee;
+  width: 60%;
+  height: 80%;
 }
 
 /*---------------------------
