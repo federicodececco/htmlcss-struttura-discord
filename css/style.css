@@ -81,6 +81,8 @@ main.container > div > div {
   background-color: #ee82ee;
   width: 60%;
   height: 80%;
+  border-width: 2px;
+  border-style: dashed;
 }
 
 /*---------------------------
@@ -162,6 +164,24 @@ footer {
 footer .rectangle {
   height: 70%;
   margin-top: auto;
+  display: flex;
+}
+
+.rectangle .small {
+  flex-grow: 0.25;
+  background-color: #20b2aa;
+  border-width: 2px;
+  border-color: white;
+  border-right-style: dashed;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+}
+
+.rectangle .medium {
+  width: 35%;
+  background-color: #ffb6c1;
+  border-style: dashed;
+  border-width: 2px;
 }
 
 footer .last {
