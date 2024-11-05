@@ -17,9 +17,11 @@
 
 ------------------------------*/
 section.container > div,
+footer.container > div,
 main.container > div > div {
   width: 1200px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*---------------------------
@@ -114,7 +116,6 @@ main .third-bg {
 
 .rectangle {
   height: 90%;
-  width: 60%;
   border-style: dashed;
   border-width: 2px;
   display: flex;
@@ -147,10 +148,28 @@ main .third-bg {
 
 /*---------------------------
 
-    
+    FOOTER
 
 ------------------------------*/
 
+footer {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #23272a;
+}
+footer .rectangle {
+  height: 70%;
+  margin-top: auto;
+}
+
+footer .last {
+  height: 10%;
+  font-size: 22px;
+  margin-top: auto;
+  background-color: #7fffd4;
+}
 
 /*---------------------------
 
