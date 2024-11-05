@@ -104,8 +104,16 @@ main .second-bg {
   justify-content: center;
 }
 
+main .third-bg {
+  height: 1000px;
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .rectangle {
-  height: 80%;
+  height: 90%;
   width: 60%;
   border-style: dashed;
   border-width: 2px;
@@ -133,6 +141,16 @@ main .second-bg {
   display: inline-block;
   justify-content: start;
 }
+.green {
+  background-color: #228b22;
+}
+
+/*---------------------------
+
+    
+
+------------------------------*/
+
 
 /*---------------------------
 
