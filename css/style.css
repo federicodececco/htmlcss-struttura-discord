@@ -16,14 +16,12 @@
         GENERAL
 
 ------------------------------*/
-.container {
+
+.container > * {
   max-width: 1200px;
-  flex: auto;
+  margin: auto;
 }
 
-.head {
-  min-height: 80px;
-}
 .hero {
   min-height: 500px;
 }
@@ -40,3 +38,44 @@ main div {
 .footer-second {
   min-height: 110px;
 }
+
+/*---------------------------
+
+    HEADER
+
+------------------------------*/
+.head {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+.head-background {
+  background-color: #add8e6;
+}
+
+.header {
+  font-size: 22px;
+  background-color: #daa520;
+  display: flex;
+  border-width: 2px;
+  padding: 5px;
+  border-style: dashed;
+}
+.header.first {
+  justify-content: flex-start;
+  min-width: 25%;
+}
+.header.center {
+  justify-content: center;
+  flex-grow: 2;
+}
+.header.last {
+  justify-content: flex-end;
+  min-width: 25%;
+}
+
+/*---------------------------
+
+    Debug
+
+------------------------------*/
