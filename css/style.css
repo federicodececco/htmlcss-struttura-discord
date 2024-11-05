@@ -169,8 +169,30 @@ footer .last {
   font-size: 22px;
   margin-top: auto;
   background-color: #7fffd4;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.feet {
+  font-size: 22px;
+  background-color: #ffb6c1;
+  display: flex;
+  border-width: 2px;
+  padding: 5px;
+  border-style: dashed;
+  display: inline-block;
+}
+.button {
+  font-size: 22px;
+  background-color: #ffb6c1;
+  display: flex;
+  border-width: 2px;
+  padding: 5px;
+  border-style: dashed;
+  display: inline-block;
+}
 /*---------------------------
 
     Debug
