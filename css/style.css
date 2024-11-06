@@ -19,9 +19,9 @@
 section.container > div,
 footer.container > div,
 main.container > div > div {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1200px;
 }
 
 /*---------------------------
@@ -32,8 +32,10 @@ main.container > div > div {
 
 .head {
   min-height: 80px;
-  display: flex;
+
   align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .head-background {
   background-color: #add8e6;
@@ -42,21 +44,19 @@ main.container > div > div {
 .header {
   font-size: 22px;
   background-color: #daa520;
-  display: flex;
   border-width: 2px;
   padding: 5px;
   border-style: dashed;
 }
 .header.first {
-  justify-content: flex-start;
   min-width: 25%;
 }
 .header.center {
-  justify-content: center;
-  flex-grow: 2;
+  flex-grow: 1;
+  text-align: center;
 }
 .header.last {
-  justify-content: flex-end;
+  text-align: end;
   min-width: 25%;
 }
 
@@ -79,7 +79,7 @@ main.container > div > div {
 
 .h-main {
   background-color: #ee82ee;
-  width: 60%;
+  width: 80%;
   height: 80%;
   border-width: 2px;
   border-style: dashed;
@@ -90,39 +90,33 @@ main.container > div > div {
     MAIN
 
 ------------------------------*/
-main {
-  height: 2800px;
-}
 
 main .first-bg {
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 main .second-bg {
   background-color: #d3d3d3;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 main .third-bg {
-  height: 1000px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #d3d3d3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .rectangle {
-  height: 90%;
+  height: 600px;
   border-style: dashed;
   border-width: 2px;
   display: flex;
 }
 
+.third-bg .rectangle {
+  height: 1000px;
+}
 .blue {
   display: inline-block;
   width: 60%;
@@ -155,15 +149,12 @@ main .third-bg {
 ------------------------------*/
 
 footer {
-  height: 750px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  padding-top: 10px;
   background-color: #23272a;
 }
 footer .rectangle {
-  height: 70%;
-  margin-top: auto;
+  height: 500px;
+
   display: flex;
 }
 
@@ -193,6 +184,7 @@ footer .last {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 .feet {
